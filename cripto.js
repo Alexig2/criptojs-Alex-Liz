@@ -11,7 +11,7 @@ function decrypt(encryptedText) {
     return bytes.toString(CryptoJS.enc.Utf8);
 }
 
-const mensagem = "Texto confidencial";
+const mensagem = "o que o gato comeu";
 const encryptedMessage = encrypt(mensagem);
 const decryptedMessage = decrypt(encryptedMessage);
 
